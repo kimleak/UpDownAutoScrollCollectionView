@@ -32,7 +32,7 @@ class ViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         for i in 0...10{
-            dataArr.append("Hello Friday \(i)")
+            dataArr.append("Hello Friday\(i)")
         }
         self.configCollectionView()
         
